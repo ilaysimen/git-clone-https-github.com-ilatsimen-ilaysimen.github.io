@@ -6,6 +6,6 @@
 תקלות באגים הצעות ביקורות ניתן להפנות אליי בדרכים הבאים
 Fxp:Karl Marx
 Skype:ilaysimen2
-Discord:ilaysimen#000
+Discord:ilaysimen#0007
 אם הגעתם לפה סימן שסיקרנתי אתכם אז אצרף קישור לאשכול רנדומלי מכספ
 https://www.fxp.co.il/showthread.php?t=20047511
