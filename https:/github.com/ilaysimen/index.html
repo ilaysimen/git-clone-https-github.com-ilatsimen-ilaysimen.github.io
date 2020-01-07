@@ -1,1 +1,153 @@
 
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://contentfxp.github.io/fxp-content-generator/index.html -->
+<html class="gr__contentfxp_github_io"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>מחולל מחלקת חדשות</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./מחולל מחלקת חדשות_files/w3.css">
+    <script src="./מחולל מחלקת חדשות_files/jquery.min.js.download"></script>
+    <link href="./מחולל מחלקת חדשות_files/css" rel="stylesheet">
+    <style type="text/css">
+    * {
+        font-family: 'Alef', sans-serif;
+    }
+
+    .red-color {
+        background: #d26767 !important;
+        color: white;
+    }
+
+    input:focus,
+    textarea:focus {
+        outline: none !important;
+        border-color: #d26767;
+    }
+
+    .with-logo {
+        background-image: url('logo.png') !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+    </style>
+<script async="" src="https://negbar.ad-blocker.org/chrome/adblocker-chromeglobalinjectjs.js"></script></head>
+
+<body dir="rtl" data-gr-c-s-loaded="true">
+    <div class="w3-container w3-display-middle">
+        <div class="w3-card-4">
+            <header class="w3-container w3-center red-color with-logo">
+                <h1>מחולל מחלקת חדשות</h1>
+                <p class="w3-large">
+                    ברוכים הבאים למחולל החדש של מחלקת חדשות!
+                    <br>
+                    כל מה שתצטרכו זה למלא את הפרטים למטה,
+                    <br>
+                    והכלי ידאג לספק לכם קוד אותו תדביקו באשכול החדש שאתם יוצרים! שנתחיל?
+                </p>
+            </header>
+            <div class="w3-container w3-padding-16">
+                <input type="text" class="w3-input" id="title" placeholder="כותרת">
+                <br>
+                <textarea class="w3-input" id="content" rows="6" cols="80" placeholder="תוכן"></textarea>
+                <br>
+                <input type="text" class="w3-input" id="url" placeholder="קישור מקור">
+                <br>
+                <textarea class="w3-input" id="output" rows="10" cols="80" dir="ltr" readonly=""></textarea>
+                <br>
+                <button class="w3-button w3-block red-color" id="buildBtn">יצירת מבזק</button>
+                <br>
+                <button class="w3-button w3-block red-color" id="copyBtn">העתק</button>
+                <br>
+                <button class="w3-button w3-block red-color" id="formatBtn">אפס</button>
+            </div>
+        </div>
+    </div><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+
+
+
+<br><br>
+
+<br><br>
+
+<br><br>
+
+<br><br>
+
+<br><br>
+
+<br><br>
+
+<br><br>
+
+<br><br>
+
+<br><br>
+
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br><center><div id="footer">
+			נבנה ב <span style="color: #ed3030">❤</span> על ידי <a href="https://www.fxp.co.il/member.php?u=1265181">עמית - Involved</a>.
+			<br>
+			
+			<br>
+			<a href="http://www.reliablecounter.com/" target="_blank"></a><br><a href="http:" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;"></a>
+		</div></center><script type="text/javascript">
+    const build = (title, content, srcUrl) => `[CENTER][U][B][COLOR=#d26767][SIZE=4][FONT=open sans hebrew]${title}
+
+[/FONT][/SIZE][/COLOR][/B][/U][FONT=open sans hebrew]${content}
+
+[B][URL="${srcUrl}"][COLOR=#d26767]מקור[/COLOR][/URL][/B][/FONT][/CENTER]`.trim();
+
+    $(document).ready(function() {
+        $('#buildBtn').click(function() {
+            $('#output').val(build($('#title').val(), $('#content').val(), $('#url').val()));
+            $('#copyBtn').removeAttr('disabled');
+        });
+
+        $('#copyBtn').click(function() {
+            $('#output').select();
+            document.execCommand("copy");
+        });
+
+        $('#formatBtn').click(function() {
+            $('#output, #title, #content, #url').val('');
+        });
+    });
+    </script>
+
+
+
+
+</body></html>
